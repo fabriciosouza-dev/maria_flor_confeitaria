@@ -1,8 +1,17 @@
 Rails.application.routes.draw do
-  devise_for :profiles
-  devise_for :admins
-  get 'inicio/index'
+  namespace :users_backoffice do
+    get 'inicio/index'
+  end
+  devise_for :users
+  namespace :site do
+    get 'inicio/index'
+  end
+  namespace :admins_backoffice do
+    get 'inicio/index'
+  end
 
-  root to: 'inicio#index'
+  devise_for :admins
+
+  root to: 'site/inicio#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
