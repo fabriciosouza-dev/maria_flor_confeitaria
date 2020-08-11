@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   namespace :site do
     get 'inicio/index'
   end
-  namespace :admins_backoffice do
+  namespace :admins_backoffice, path: :admin do
     get 'inicio/index'
   end
 
