@@ -38,6 +38,12 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise'
 gem 'rails-i18n', '~> 5.1'
 gem 'tty-spinner'
+gem 'pry-rails'
+gem 'ajax-datatables-rails'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'bootstrap', '~> 5.0.0.alpha1'
+gem "bootstrap_form", "~> 4.0"
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

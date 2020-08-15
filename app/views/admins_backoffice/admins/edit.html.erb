@@ -1,0 +1,10 @@
+<h1>Deu certo</h1>
+<%= bootstrap_form_for ([:admins_backoffice, @admin]) do |f| %>
+  <div class="row">
+    <div class="col-md-6">
+      <%= h f.text_field :email, class: 'form-control',
+                         label: "Teste", placeholder: "Automático" %>
+    </div>
+  </div>
+  <%= f.button "Salvar", class: 'btn btn-round btn-success btn-sm', data: { disable_with: "Salvando ..." } %>
+<% end %>

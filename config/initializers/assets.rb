@@ -9,11 +9,11 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 # Precompile additional assets.
-# application.js, application.css, and all non-JS/CSS in the app/assets
+# application.js, application.scss, and all non-JS/CSS in the app/assets
 # folder are already added.
 
 # /app/assets
-Rails.application.config.assets.precompile += %w( admins_backoffice.js admins_backoffice.css )
+Rails.application.config.assets.precompile += %w( admins_backoffice.js admins_backoffice.css profile.png)
 
 # /lib/assets
 Rails.application.config.assets.precompile += %w( custom.js custom.css )

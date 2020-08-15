@@ -1,10 +1,12 @@
 // Place all the styles related to the admins_backoffice controller here.
-// They will automatically be included in application.css.
+// They will automatically be included in application.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /*
 *= require bootstrap/dist/css/bootstrap
 *= require font-awesome/css/font-awesome
 *= require nprogress/nprogress.css
 *= require malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar
+*= require sweetalert2/dist/sweetalert2
+*= require rails_bootstrap_forms
 *= require custom
 */

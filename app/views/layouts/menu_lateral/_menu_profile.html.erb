@@ -1,9 +1,13 @@
 <div class="profile clearfix">
-  <div class="profile_pic">
-    <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+  <div class="row padding-10-sides">
+    <div class="profile_pic">
+      <%= image_tag 'profile.png', alt: '', class: "img-circle profile_img" %>
+    </div>
   </div>
-  <div class="profile_info">
-    <span>Welcome,</span>
-    <h2>John Doe</h2>
+  <div class="row padding-10-sides">
+    <div class="profile_info">
+      <span>Bem Vindo,</span>
+      <h2><%= current_admin.email %></h2>
+    </div>
   </div>
 </div>

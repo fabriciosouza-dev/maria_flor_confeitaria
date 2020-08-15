@@ -8,6 +8,8 @@
 #= require fastclick/lib/fastclick
 #= require nprogress/nprogress
 #= require malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar
+#= require sweetalert2/dist/sweetalert2
+#= require bootstrap-sprockets
 #= require custom
 
 
